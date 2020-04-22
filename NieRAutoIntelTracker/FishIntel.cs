@@ -41,7 +41,8 @@ namespace NieRAutoIntelTracker
         TWINFISH = 64,
         AROWANA = 128,
 
-        //POD_B = 64,
+        IRON_PIPE = 32,
+        POD_B = 64,
         BROKEN_FIREARM = 128,
 
         BATTERY = 1,

@@ -13,23 +13,25 @@ namespace NieRAutoIntelTracker
 
     class GameMemory
     {
-        public const int SLEEP_TIME = 1000;
+        public const int SLEEP_TIME = 250;
 
         private Task _thread;
         private CancellationTokenSource _cancelSource;
-        private SynchronizationContext _uiThread;
         private DeepPointer _intelFishPtr;
         private DeepPointer _intelFishPtrDebug;
         public ulong IntelFishCurrent { get; set; }
         public ulong IntelFishOld { get; set; }
+        public byte[] IntelUnitCurrent { get; set; }
+        public byte[] IntelUnitOld { get; set; }
 
-        private IntelDisplay _fishIntelDisplay;
+        private IntelDisplay _intelDisplay;
 
-        public GameMemory(IntelDisplay fishIntelDisplay)
+        public GameMemory(IntelDisplay intelDisplay)
         {
-            _intelFishPtr = new DeepPointer(0x197C460); // release
-            _intelFishPtrDebug = new DeepPointer(0x25A77E0); // debug
-            _fishIntelDisplay = fishIntelDisplay;
+            _intelFishPtr = new DeepPointer(0x198452C); // 0x197C460
+            _intelFishPtrDebug = new DeepPointer(0x25AF8AC); // 0x25A77E0
+            _intelDisplay = intelDisplay;
+            IntelUnitCurrent = new byte[1];
         }
 
         public void StartMonitoring()
@@ -44,7 +46,7 @@ namespace NieRAutoIntelTracker
                 throw new InvalidOperationException("SynchronizationContext.Current is not a UI thread.");
             }
 
-            _uiThread = SynchronizationContext.Current;
+            //_uiThread = SynchronizationContext.Current;
             _cancelSource = new CancellationTokenSource();
             _thread = Task.Factory.StartNew(MemoryReadThread);
         }
@@ -58,17 +60,18 @@ namespace NieRAutoIntelTracker
 
             _cancelSource.Cancel();
             _thread.Wait();
+            _intelDisplay.updateComponentDisplayStatus("Game closed");
         }
 
         void MemoryReadThread()
         {
-            Debug.WriteLine("[NierFishTracker] MemoryReadThread");
+            Debug.WriteLine("[NierIntelTracker] MemoryReadThread");
 
             while (!_cancelSource.IsCancellationRequested)
             {
                 try
                 {
-                    Trace.WriteLine("[NierFishTracker] Waiting for NieRAutomata.exe...");
+                    Trace.WriteLine("[NierIntelTracker] Waiting for NieRAutomata.exe...");
 
                     Process game;
                     while ((game = GetGameProcess()) == null)
@@ -80,23 +83,29 @@ namespace NieRAutoIntelTracker
                         }
                     }
 
-                    Trace.WriteLine("[NierFishTracker] Got NieRAutomata.exe!");
+                    Trace.WriteLine("[NierIntelTracker] Got NieRAutomata.exe!");
+                    _intelDisplay.updateComponentDisplayStatus("Game process found");
 
                     IEnumerator coll = game.Modules.GetEnumerator();
                     coll.MoveNext();
 
                     DeepPointer FishPtr;
+                    DeepPointer UnitIntelPtr;
                     var memSize = ((ProcessModule)coll.Current).ModuleMemorySize;
                     switch (memSize)
                     {
                         case 106266624:
-                            FishPtr = _intelFishPtr;
+                            FishPtr = new DeepPointer(0x198452C); // 0x197C460
+                            UnitIntelPtr = new DeepPointer(0x19844C8);
+                            _intelDisplay.updateComponentDisplayStatus("v1.01");
                             break;
                         default:
-                            FishPtr = _intelFishPtrDebug;
+                            FishPtr = new DeepPointer(0x25AF8AC); // 0x25A77E0
+                            UnitIntelPtr = new DeepPointer(0x25AF848);
+                            _intelDisplay.updateComponentDisplayStatus("vdebug");
                             break;
                     }
-                    Debug.WriteLine("[NierFishTracker] ModuleMemorySize: " + memSize.ToString());
+                    Debug.WriteLine("[NierIntelTracker] ModuleMemorySize: " + memSize.ToString());
 
                     while (!game.HasExited)
                     {
@@ -107,7 +116,7 @@ namespace NieRAutoIntelTracker
 
                         if (IntelFishCurrent != IntelFishOld)
                         {
-                            this._fishIntelDisplay.UpdateDebugDisplay(IntelFishCurrent.ToString("X"));
+                            // this._intelDisplay.UpdateDebugDisplay(IntelFishCurrent.ToString("X"));
 
                             // split long into byte array to simplify flags
                             byte[] _buffer = new byte[8];
@@ -122,9 +131,15 @@ namespace NieRAutoIntelTracker
                             _buffer[4] = (byte)(IntelFishCurrent >> 48);
                             _buffer[5] = (byte)(IntelFishCurrent >> 56);
 
-                            // Debug.WriteLine("[NierFishTracker] breakdown: " + string.Join(", ", _buffer));
+                            this._intelDisplay.UpdateFishIntel(_buffer);
+                        }
 
-                            this._fishIntelDisplay.UpdateDisplay(_buffer);
+                        IntelUnitOld = IntelUnitCurrent;
+                        IntelUnitCurrent = UnitIntelPtr.DerefBytes(game, 24);
+
+                        if (!IntelUnitCurrent.SequenceEqual(IntelUnitOld))
+                        {
+                            this._intelDisplay.UpdateUnitIntel(IntelUnitCurrent);
                         }
 
                         Thread.Sleep(SLEEP_TIME);
@@ -137,7 +152,7 @@ namespace NieRAutoIntelTracker
                 }
                 catch (Exception ex)
                 {
-                    Debug.WriteLine(ex.ToString());
+                    Debug.WriteLine("[NierIntelTracker] Exception: " + ex.ToString());
                     Thread.Sleep(1000);
                 }
             }
