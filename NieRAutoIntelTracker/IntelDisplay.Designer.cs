@@ -2173,6 +2173,7 @@
             // 
             // checkBoxDesertSmallStubby
             // 
+            this.checkBoxDesertSmallStubby.AutoCheck = false;
             this.checkBoxDesertSmallStubby.AutoSize = true;
             this.checkBoxDesertSmallStubby.Location = new System.Drawing.Point(14, 14);
             this.checkBoxDesertSmallStubby.Name = "checkBoxDesertSmallStubby";
@@ -2183,6 +2184,7 @@
             // 
             // checkBoxDesertSmallStubbySaw
             // 
+            this.checkBoxDesertSmallStubbySaw.AutoCheck = false;
             this.checkBoxDesertSmallStubbySaw.AutoSize = true;
             this.checkBoxDesertSmallStubbySaw.Location = new System.Drawing.Point(149, 14);
             this.checkBoxDesertSmallStubbySaw.Name = "checkBoxDesertSmallStubbySaw";
@@ -2193,6 +2195,7 @@
             // 
             // checkBoxDesertSmallBipedSword
             // 
+            this.checkBoxDesertSmallBipedSword.AutoCheck = false;
             this.checkBoxDesertSmallBipedSword.AutoSize = true;
             this.checkBoxDesertSmallBipedSword.Location = new System.Drawing.Point(14, 37);
             this.checkBoxDesertSmallBipedSword.Name = "checkBoxDesertSmallBipedSword";
@@ -2203,6 +2206,7 @@
             // 
             // checkBoxDesertMediumBipedSword
             // 
+            this.checkBoxDesertMediumBipedSword.AutoCheck = false;
             this.checkBoxDesertMediumBipedSword.AutoSize = true;
             this.checkBoxDesertMediumBipedSword.Location = new System.Drawing.Point(14, 60);
             this.checkBoxDesertMediumBipedSword.Name = "checkBoxDesertMediumBipedSword";
@@ -2213,6 +2217,7 @@
             // 
             // checkBoxDesertMediumBipedShield
             // 
+            this.checkBoxDesertMediumBipedShield.AutoCheck = false;
             this.checkBoxDesertMediumBipedShield.AutoSize = true;
             this.checkBoxDesertMediumBipedShield.Location = new System.Drawing.Point(149, 60);
             this.checkBoxDesertMediumBipedShield.Name = "checkBoxDesertMediumBipedShield";
@@ -2223,6 +2228,7 @@
             // 
             // checkBoxDesertMediumBipedEMShield
             // 
+            this.checkBoxDesertMediumBipedEMShield.AutoCheck = false;
             this.checkBoxDesertMediumBipedEMShield.AutoSize = true;
             this.checkBoxDesertMediumBipedEMShield.Location = new System.Drawing.Point(317, 60);
             this.checkBoxDesertMediumBipedEMShield.Name = "checkBoxDesertMediumBipedEMShield";
@@ -2233,6 +2239,7 @@
             // 
             // checkBoxDesertGoliathBiped
             // 
+            this.checkBoxDesertGoliathBiped.AutoCheck = false;
             this.checkBoxDesertGoliathBiped.AutoSize = true;
             this.checkBoxDesertGoliathBiped.Location = new System.Drawing.Point(14, 83);
             this.checkBoxDesertGoliathBiped.Name = "checkBoxDesertGoliathBiped";
@@ -2243,6 +2250,7 @@
             // 
             // checkBoxDesertSmallFlyer
             // 
+            this.checkBoxDesertSmallFlyer.AutoCheck = false;
             this.checkBoxDesertSmallFlyer.AutoSize = true;
             this.checkBoxDesertSmallFlyer.Location = new System.Drawing.Point(14, 106);
             this.checkBoxDesertSmallFlyer.Name = "checkBoxDesertSmallFlyer";
@@ -2253,6 +2261,7 @@
             // 
             // checkBoxDesertMediumFlyer
             // 
+            this.checkBoxDesertMediumFlyer.AutoCheck = false;
             this.checkBoxDesertMediumFlyer.AutoSize = true;
             this.checkBoxDesertMediumFlyer.Location = new System.Drawing.Point(14, 129);
             this.checkBoxDesertMediumFlyer.Name = "checkBoxDesertMediumFlyer";
@@ -2263,6 +2272,7 @@
             // 
             // checkBoxDesertMediumFlyerKamikazeUnit
             // 
+            this.checkBoxDesertMediumFlyerKamikazeUnit.AutoCheck = false;
             this.checkBoxDesertMediumFlyerKamikazeUnit.AutoSize = true;
             this.checkBoxDesertMediumFlyerKamikazeUnit.Location = new System.Drawing.Point(149, 129);
             this.checkBoxDesertMediumFlyerKamikazeUnit.Name = "checkBoxDesertMediumFlyerKamikazeUnit";
@@ -2273,6 +2283,7 @@
             // 
             // checkBoxDesertMediumFlyerGunnerx2Kamikazex2
             // 
+            this.checkBoxDesertMediumFlyerGunnerx2Kamikazex2.AutoCheck = false;
             this.checkBoxDesertMediumFlyerGunnerx2Kamikazex2.AutoSize = true;
             this.checkBoxDesertMediumFlyerGunnerx2Kamikazex2.Location = new System.Drawing.Point(317, 129);
             this.checkBoxDesertMediumFlyerGunnerx2Kamikazex2.Name = "checkBoxDesertMediumFlyerGunnerx2Kamikazex2";
@@ -2301,6 +2312,7 @@
             // 
             // checkBoxParkSmallStubby
             // 
+            this.checkBoxParkSmallStubby.AutoCheck = false;
             this.checkBoxParkSmallStubby.AutoSize = true;
             this.checkBoxParkSmallStubby.Location = new System.Drawing.Point(14, 14);
             this.checkBoxParkSmallStubby.Name = "checkBoxParkSmallStubby";
@@ -2311,6 +2323,7 @@
             // 
             // checkBoxParkSmallBiped
             // 
+            this.checkBoxParkSmallBiped.AutoCheck = false;
             this.checkBoxParkSmallBiped.AutoSize = true;
             this.checkBoxParkSmallBiped.Location = new System.Drawing.Point(14, 37);
             this.checkBoxParkSmallBiped.Name = "checkBoxParkSmallBiped";
@@ -2321,6 +2334,7 @@
             // 
             // checkBoxParkMediumBipedGun
             // 
+            this.checkBoxParkMediumBipedGun.AutoCheck = false;
             this.checkBoxParkMediumBipedGun.AutoSize = true;
             this.checkBoxParkMediumBipedGun.Location = new System.Drawing.Point(14, 60);
             this.checkBoxParkMediumBipedGun.Name = "checkBoxParkMediumBipedGun";
@@ -2331,6 +2345,7 @@
             // 
             // checkBoxParkSmallFlyer
             // 
+            this.checkBoxParkSmallFlyer.AutoCheck = false;
             this.checkBoxParkSmallFlyer.AutoSize = true;
             this.checkBoxParkSmallFlyer.Location = new System.Drawing.Point(14, 83);
             this.checkBoxParkSmallFlyer.Name = "checkBoxParkSmallFlyer";
@@ -2341,6 +2356,7 @@
             // 
             // checkBoxParkMediumFlyer
             // 
+            this.checkBoxParkMediumFlyer.AutoCheck = false;
             this.checkBoxParkMediumFlyer.AutoSize = true;
             this.checkBoxParkMediumFlyer.Location = new System.Drawing.Point(14, 106);
             this.checkBoxParkMediumFlyer.Name = "checkBoxParkMediumFlyer";
@@ -2351,6 +2367,7 @@
             // 
             // checkBoxParkMediumFlyerKamikazeUnit
             // 
+            this.checkBoxParkMediumFlyerKamikazeUnit.AutoCheck = false;
             this.checkBoxParkMediumFlyerKamikazeUnit.AutoSize = true;
             this.checkBoxParkMediumFlyerKamikazeUnit.Location = new System.Drawing.Point(170, 106);
             this.checkBoxParkMediumFlyerKamikazeUnit.Name = "checkBoxParkMediumFlyerKamikazeUnit";
@@ -2361,6 +2378,7 @@
             // 
             // checkBoxParkMediumFlyerGunnerx2Kamikazex2
             // 
+            this.checkBoxParkMediumFlyerGunnerx2Kamikazex2.AutoCheck = false;
             this.checkBoxParkMediumFlyerGunnerx2Kamikazex2.AutoSize = true;
             this.checkBoxParkMediumFlyerGunnerx2Kamikazex2.Location = new System.Drawing.Point(338, 106);
             this.checkBoxParkMediumFlyerGunnerx2Kamikazex2.Name = "checkBoxParkMediumFlyerGunnerx2Kamikazex2";
@@ -2371,6 +2389,7 @@
             // 
             // checkBoxParkRampagingSmallBiped
             // 
+            this.checkBoxParkRampagingSmallBiped.AutoCheck = false;
             this.checkBoxParkRampagingSmallBiped.AutoSize = true;
             this.checkBoxParkRampagingSmallBiped.Location = new System.Drawing.Point(14, 129);
             this.checkBoxParkRampagingSmallBiped.Name = "checkBoxParkRampagingSmallBiped";
@@ -2381,6 +2400,7 @@
             // 
             // checkBoxParkRampagingMediumBiped
             // 
+            this.checkBoxParkRampagingMediumBiped.AutoCheck = false;
             this.checkBoxParkRampagingMediumBiped.AutoSize = true;
             this.checkBoxParkRampagingMediumBiped.Location = new System.Drawing.Point(14, 152);
             this.checkBoxParkRampagingMediumBiped.Name = "checkBoxParkRampagingMediumBiped";
@@ -2411,6 +2431,7 @@
             // 
             // checkBoxForestSmallStubby
             // 
+            this.checkBoxForestSmallStubby.AutoCheck = false;
             this.checkBoxForestSmallStubby.AutoSize = true;
             this.checkBoxForestSmallStubby.Location = new System.Drawing.Point(14, 14);
             this.checkBoxForestSmallStubby.Name = "checkBoxForestSmallStubby";
@@ -2421,6 +2442,7 @@
             // 
             // checkBoxForestSmallBipedSpear
             // 
+            this.checkBoxForestSmallBipedSpear.AutoCheck = false;
             this.checkBoxForestSmallBipedSpear.AutoSize = true;
             this.checkBoxForestSmallBipedSpear.Location = new System.Drawing.Point(14, 37);
             this.checkBoxForestSmallBipedSpear.Name = "checkBoxForestSmallBipedSpear";
@@ -2431,6 +2453,7 @@
             // 
             // checkBoxForestMediumBipedSpear
             // 
+            this.checkBoxForestMediumBipedSpear.AutoCheck = false;
             this.checkBoxForestMediumBipedSpear.AutoSize = true;
             this.checkBoxForestMediumBipedSpear.Location = new System.Drawing.Point(14, 60);
             this.checkBoxForestMediumBipedSpear.Name = "checkBoxForestMediumBipedSpear";
@@ -2441,6 +2464,7 @@
             // 
             // checkBoxForestMediumBipedShield
             // 
+            this.checkBoxForestMediumBipedShield.AutoCheck = false;
             this.checkBoxForestMediumBipedShield.AutoSize = true;
             this.checkBoxForestMediumBipedShield.Location = new System.Drawing.Point(214, 60);
             this.checkBoxForestMediumBipedShield.Name = "checkBoxForestMediumBipedShield";
@@ -2451,6 +2475,7 @@
             // 
             // checkBoxForestMediumBipedEMShield
             // 
+            this.checkBoxForestMediumBipedEMShield.AutoCheck = false;
             this.checkBoxForestMediumBipedEMShield.AutoSize = true;
             this.checkBoxForestMediumBipedEMShield.Location = new System.Drawing.Point(373, 60);
             this.checkBoxForestMediumBipedEMShield.Name = "checkBoxForestMediumBipedEMShield";
@@ -2461,6 +2486,7 @@
             // 
             // checkBoxForestMediumQuadruped
             // 
+            this.checkBoxForestMediumQuadruped.AutoCheck = false;
             this.checkBoxForestMediumQuadruped.AutoSize = true;
             this.checkBoxForestMediumQuadruped.Location = new System.Drawing.Point(14, 83);
             this.checkBoxForestMediumQuadruped.Name = "checkBoxForestMediumQuadruped";
@@ -2471,6 +2497,7 @@
             // 
             // checkBoxForestMediumQuadrupedRider
             // 
+            this.checkBoxForestMediumQuadrupedRider.AutoCheck = false;
             this.checkBoxForestMediumQuadrupedRider.AutoSize = true;
             this.checkBoxForestMediumQuadrupedRider.Location = new System.Drawing.Point(214, 83);
             this.checkBoxForestMediumQuadrupedRider.Name = "checkBoxForestMediumQuadrupedRider";
@@ -2481,6 +2508,7 @@
             // 
             // checkBoxForestMediumQuadrupedStanding
             // 
+            this.checkBoxForestMediumQuadrupedStanding.AutoCheck = false;
             this.checkBoxForestMediumQuadrupedStanding.AutoSize = true;
             this.checkBoxForestMediumQuadrupedStanding.Location = new System.Drawing.Point(373, 83);
             this.checkBoxForestMediumQuadrupedStanding.Name = "checkBoxForestMediumQuadrupedStanding";
@@ -2491,6 +2519,7 @@
             // 
             // checkBoxForestGoliathBipedEnhancedLegpower
             // 
+            this.checkBoxForestGoliathBipedEnhancedLegpower.AutoCheck = false;
             this.checkBoxForestGoliathBipedEnhancedLegpower.AutoSize = true;
             this.checkBoxForestGoliathBipedEnhancedLegpower.Location = new System.Drawing.Point(14, 106);
             this.checkBoxForestGoliathBipedEnhancedLegpower.Name = "checkBoxForestGoliathBipedEnhancedLegpower";
@@ -2501,6 +2530,7 @@
             // 
             // checkBoxForestSmallFlyer
             // 
+            this.checkBoxForestSmallFlyer.AutoCheck = false;
             this.checkBoxForestSmallFlyer.AutoSize = true;
             this.checkBoxForestSmallFlyer.Location = new System.Drawing.Point(14, 129);
             this.checkBoxForestSmallFlyer.Name = "checkBoxForestSmallFlyer";
@@ -2527,6 +2557,7 @@
             // 
             // checkBoxFactorySmallStubby
             // 
+            this.checkBoxFactorySmallStubby.AutoCheck = false;
             this.checkBoxFactorySmallStubby.AutoSize = true;
             this.checkBoxFactorySmallStubby.Location = new System.Drawing.Point(14, 14);
             this.checkBoxFactorySmallStubby.Name = "checkBoxFactorySmallStubby";
@@ -2537,6 +2568,7 @@
             // 
             // checkBoxFactorySmallStubbyKamikaze
             // 
+            this.checkBoxFactorySmallStubbyKamikaze.AutoCheck = false;
             this.checkBoxFactorySmallStubbyKamikaze.AutoSize = true;
             this.checkBoxFactorySmallStubbyKamikaze.Location = new System.Drawing.Point(139, 14);
             this.checkBoxFactorySmallStubbyKamikaze.Name = "checkBoxFactorySmallStubbyKamikaze";
@@ -2547,6 +2579,7 @@
             // 
             // checkBoxFactorySmallBipedTorch
             // 
+            this.checkBoxFactorySmallBipedTorch.AutoCheck = false;
             this.checkBoxFactorySmallBipedTorch.AutoSize = true;
             this.checkBoxFactorySmallBipedTorch.Location = new System.Drawing.Point(14, 37);
             this.checkBoxFactorySmallBipedTorch.Name = "checkBoxFactorySmallBipedTorch";
@@ -2557,6 +2590,7 @@
             // 
             // checkBoxFactorySmallBipedAxe
             // 
+            this.checkBoxFactorySmallBipedAxe.AutoCheck = false;
             this.checkBoxFactorySmallBipedAxe.AutoSize = true;
             this.checkBoxFactorySmallBipedAxe.Location = new System.Drawing.Point(139, 37);
             this.checkBoxFactorySmallBipedAxe.Name = "checkBoxFactorySmallBipedAxe";
@@ -2567,6 +2601,7 @@
             // 
             // checkBoxFactoryMediumBipedAxe
             // 
+            this.checkBoxFactoryMediumBipedAxe.AutoCheck = false;
             this.checkBoxFactoryMediumBipedAxe.AutoSize = true;
             this.checkBoxFactoryMediumBipedAxe.Location = new System.Drawing.Point(14, 60);
             this.checkBoxFactoryMediumBipedAxe.Name = "checkBoxFactoryMediumBipedAxe";
@@ -2577,6 +2612,7 @@
             // 
             // checkBoxFactoryMediumQuadruped
             // 
+            this.checkBoxFactoryMediumQuadruped.AutoCheck = false;
             this.checkBoxFactoryMediumQuadruped.AutoSize = true;
             this.checkBoxFactoryMediumQuadruped.Location = new System.Drawing.Point(14, 83);
             this.checkBoxFactoryMediumQuadruped.Name = "checkBoxFactoryMediumQuadruped";
@@ -2587,6 +2623,7 @@
             // 
             // checkBoxFactorySmallFlyer
             // 
+            this.checkBoxFactorySmallFlyer.AutoCheck = false;
             this.checkBoxFactorySmallFlyer.AutoSize = true;
             this.checkBoxFactorySmallFlyer.Location = new System.Drawing.Point(14, 106);
             this.checkBoxFactorySmallFlyer.Name = "checkBoxFactorySmallFlyer";
@@ -2623,6 +2660,7 @@
             // 
             // checkBoxVillagePascalFlying
             // 
+            this.checkBoxVillagePascalFlying.AutoCheck = false;
             this.checkBoxVillagePascalFlying.AutoSize = true;
             this.checkBoxVillagePascalFlying.Location = new System.Drawing.Point(141, 198);
             this.checkBoxVillagePascalFlying.Name = "checkBoxVillagePascalFlying";
@@ -2633,6 +2671,7 @@
             // 
             // checkBoxVillageSmallStubby
             // 
+            this.checkBoxVillageSmallStubby.AutoCheck = false;
             this.checkBoxVillageSmallStubby.AutoSize = true;
             this.checkBoxVillageSmallStubby.Location = new System.Drawing.Point(14, 14);
             this.checkBoxVillageSmallStubby.Name = "checkBoxVillageSmallStubby";
@@ -2643,6 +2682,7 @@
             // 
             // checkBoxVillageMultitier
             // 
+            this.checkBoxVillageMultitier.AutoCheck = false;
             this.checkBoxVillageMultitier.AutoSize = true;
             this.checkBoxVillageMultitier.Location = new System.Drawing.Point(14, 37);
             this.checkBoxVillageMultitier.Name = "checkBoxVillageMultitier";
@@ -2653,6 +2693,7 @@
             // 
             // checkBoxVillageSmallBiped
             // 
+            this.checkBoxVillageSmallBiped.AutoCheck = false;
             this.checkBoxVillageSmallBiped.AutoSize = true;
             this.checkBoxVillageSmallBiped.Location = new System.Drawing.Point(14, 60);
             this.checkBoxVillageSmallBiped.Name = "checkBoxVillageSmallBiped";
@@ -2663,6 +2704,7 @@
             // 
             // checkBoxVillageMediumBiped
             // 
+            this.checkBoxVillageMediumBiped.AutoCheck = false;
             this.checkBoxVillageMediumBiped.AutoSize = true;
             this.checkBoxVillageMediumBiped.Location = new System.Drawing.Point(14, 83);
             this.checkBoxVillageMediumBiped.Name = "checkBoxVillageMediumBiped";
@@ -2673,6 +2715,7 @@
             // 
             // checkBoxVillageGoliathBiped
             // 
+            this.checkBoxVillageGoliathBiped.AutoCheck = false;
             this.checkBoxVillageGoliathBiped.AutoSize = true;
             this.checkBoxVillageGoliathBiped.Location = new System.Drawing.Point(14, 106);
             this.checkBoxVillageGoliathBiped.Name = "checkBoxVillageGoliathBiped";
@@ -2683,6 +2726,7 @@
             // 
             // checkBoxVillageSmallFlyer
             // 
+            this.checkBoxVillageSmallFlyer.AutoCheck = false;
             this.checkBoxVillageSmallFlyer.AutoSize = true;
             this.checkBoxVillageSmallFlyer.Location = new System.Drawing.Point(14, 129);
             this.checkBoxVillageSmallFlyer.Name = "checkBoxVillageSmallFlyer";
@@ -2693,6 +2737,7 @@
             // 
             // checkBoxVillageSmallSphere
             // 
+            this.checkBoxVillageSmallSphere.AutoCheck = false;
             this.checkBoxVillageSmallSphere.AutoSize = true;
             this.checkBoxVillageSmallSphere.Location = new System.Drawing.Point(14, 152);
             this.checkBoxVillageSmallSphere.Name = "checkBoxVillageSmallSphere";
@@ -2703,6 +2748,7 @@
             // 
             // checkBoxVillageSartreJeanPaul
             // 
+            this.checkBoxVillageSartreJeanPaul.AutoCheck = false;
             this.checkBoxVillageSartreJeanPaul.AutoSize = true;
             this.checkBoxVillageSartreJeanPaul.Location = new System.Drawing.Point(14, 175);
             this.checkBoxVillageSartreJeanPaul.Name = "checkBoxVillageSartreJeanPaul";
@@ -2713,6 +2759,7 @@
             // 
             // checkBoxVillagePascal
             // 
+            this.checkBoxVillagePascal.AutoCheck = false;
             this.checkBoxVillagePascal.AutoSize = true;
             this.checkBoxVillagePascal.Location = new System.Drawing.Point(14, 198);
             this.checkBoxVillagePascal.Name = "checkBoxVillagePascal";
@@ -2723,6 +2770,7 @@
             // 
             // checkBoxVillageFatherMachine
             // 
+            this.checkBoxVillageFatherMachine.AutoCheck = false;
             this.checkBoxVillageFatherMachine.AutoSize = true;
             this.checkBoxVillageFatherMachine.Location = new System.Drawing.Point(14, 221);
             this.checkBoxVillageFatherMachine.Name = "checkBoxVillageFatherMachine";
@@ -2733,6 +2781,7 @@
             // 
             // checkBoxVillageMotherMachine
             // 
+            this.checkBoxVillageMotherMachine.AutoCheck = false;
             this.checkBoxVillageMotherMachine.AutoSize = true;
             this.checkBoxVillageMotherMachine.Location = new System.Drawing.Point(14, 244);
             this.checkBoxVillageMotherMachine.Name = "checkBoxVillageMotherMachine";
@@ -2743,6 +2792,7 @@
             // 
             // checkBoxVillageChildMachine
             // 
+            this.checkBoxVillageChildMachine.AutoCheck = false;
             this.checkBoxVillageChildMachine.AutoSize = true;
             this.checkBoxVillageChildMachine.Location = new System.Drawing.Point(14, 267);
             this.checkBoxVillageChildMachine.Name = "checkBoxVillageChildMachine";
@@ -2753,6 +2803,7 @@
             // 
             // checkBoxVillageBigSisterMachine
             // 
+            this.checkBoxVillageBigSisterMachine.AutoCheck = false;
             this.checkBoxVillageBigSisterMachine.AutoSize = true;
             this.checkBoxVillageBigSisterMachine.Location = new System.Drawing.Point(14, 290);
             this.checkBoxVillageBigSisterMachine.Name = "checkBoxVillageBigSisterMachine";
@@ -2763,6 +2814,7 @@
             // 
             // checkBoxVillageLittleSisterMachine
             // 
+            this.checkBoxVillageLittleSisterMachine.AutoCheck = false;
             this.checkBoxVillageLittleSisterMachine.AutoSize = true;
             this.checkBoxVillageLittleSisterMachine.Location = new System.Drawing.Point(14, 313);
             this.checkBoxVillageLittleSisterMachine.Name = "checkBoxVillageLittleSisterMachine";
@@ -2773,6 +2825,7 @@
             // 
             // checkBoxVillageScientistMachine
             // 
+            this.checkBoxVillageScientistMachine.AutoCheck = false;
             this.checkBoxVillageScientistMachine.AutoSize = true;
             this.checkBoxVillageScientistMachine.Location = new System.Drawing.Point(14, 336);
             this.checkBoxVillageScientistMachine.Name = "checkBoxVillageScientistMachine";
@@ -2783,6 +2836,7 @@
             // 
             // checkBoxVillageWeirdMachine
             // 
+            this.checkBoxVillageWeirdMachine.AutoCheck = false;
             this.checkBoxVillageWeirdMachine.AutoSize = true;
             this.checkBoxVillageWeirdMachine.Location = new System.Drawing.Point(14, 359);
             this.checkBoxVillageWeirdMachine.Name = "checkBoxVillageWeirdMachine";
@@ -2825,6 +2879,7 @@
             // 
             // checkBoxEnhancedLinkedsphereTypeThorn
             // 
+            this.checkBoxEnhancedLinkedsphereTypeThorn.AutoCheck = false;
             this.checkBoxEnhancedLinkedsphereTypeThorn.AutoSize = true;
             this.checkBoxEnhancedLinkedsphereTypeThorn.Location = new System.Drawing.Point(637, 267);
             this.checkBoxEnhancedLinkedsphereTypeThorn.Name = "checkBoxEnhancedLinkedsphereTypeThorn";
@@ -2835,6 +2890,7 @@
             // 
             // checkBoxEnhancedSmallStubby
             // 
+            this.checkBoxEnhancedSmallStubby.AutoCheck = false;
             this.checkBoxEnhancedSmallStubby.AutoSize = true;
             this.checkBoxEnhancedSmallStubby.Location = new System.Drawing.Point(14, 14);
             this.checkBoxEnhancedSmallStubby.Name = "checkBoxEnhancedSmallStubby";
@@ -2845,6 +2901,7 @@
             // 
             // checkBoxEnhancedMultitierType
             // 
+            this.checkBoxEnhancedMultitierType.AutoCheck = false;
             this.checkBoxEnhancedMultitierType.AutoSize = true;
             this.checkBoxEnhancedMultitierType.Location = new System.Drawing.Point(14, 37);
             this.checkBoxEnhancedMultitierType.Name = "checkBoxEnhancedMultitierType";
@@ -2855,6 +2912,7 @@
             // 
             // checkBoxEnhancedMultitierTypeGun
             // 
+            this.checkBoxEnhancedMultitierTypeGun.AutoCheck = false;
             this.checkBoxEnhancedMultitierTypeGun.AutoSize = true;
             this.checkBoxEnhancedMultitierTypeGun.Location = new System.Drawing.Point(217, 37);
             this.checkBoxEnhancedMultitierTypeGun.Name = "checkBoxEnhancedMultitierTypeGun";
@@ -2865,6 +2923,7 @@
             // 
             // checkBoxEnhancedSmallBiped
             // 
+            this.checkBoxEnhancedSmallBiped.AutoCheck = false;
             this.checkBoxEnhancedSmallBiped.AutoSize = true;
             this.checkBoxEnhancedSmallBiped.Location = new System.Drawing.Point(14, 60);
             this.checkBoxEnhancedSmallBiped.Name = "checkBoxEnhancedSmallBiped";
@@ -2875,6 +2934,7 @@
             // 
             // checkBoxEnhancedMediumBiped
             // 
+            this.checkBoxEnhancedMediumBiped.AutoCheck = false;
             this.checkBoxEnhancedMediumBiped.AutoSize = true;
             this.checkBoxEnhancedMediumBiped.Location = new System.Drawing.Point(14, 83);
             this.checkBoxEnhancedMediumBiped.Name = "checkBoxEnhancedMediumBiped";
@@ -2885,6 +2945,7 @@
             // 
             // checkBoxEnhancedMediumQuadruped
             // 
+            this.checkBoxEnhancedMediumQuadruped.AutoCheck = false;
             this.checkBoxEnhancedMediumQuadruped.AutoSize = true;
             this.checkBoxEnhancedMediumQuadruped.Location = new System.Drawing.Point(14, 106);
             this.checkBoxEnhancedMediumQuadruped.Name = "checkBoxEnhancedMediumQuadruped";
@@ -2895,6 +2956,7 @@
             // 
             // checkBoxEnhancedMediumQuadrupedstanding
             // 
+            this.checkBoxEnhancedMediumQuadrupedstanding.AutoCheck = false;
             this.checkBoxEnhancedMediumQuadrupedstanding.AutoSize = true;
             this.checkBoxEnhancedMediumQuadrupedstanding.Location = new System.Drawing.Point(217, 106);
             this.checkBoxEnhancedMediumQuadrupedstanding.Name = "checkBoxEnhancedMediumQuadrupedstanding";
@@ -2905,6 +2967,7 @@
             // 
             // checkBoxEnhancedMultilegMediumModelLongrange
             // 
+            this.checkBoxEnhancedMultilegMediumModelLongrange.AutoCheck = false;
             this.checkBoxEnhancedMultilegMediumModelLongrange.AutoSize = true;
             this.checkBoxEnhancedMultilegMediumModelLongrange.Location = new System.Drawing.Point(14, 129);
             this.checkBoxEnhancedMultilegMediumModelLongrange.Name = "checkBoxEnhancedMultilegMediumModelLongrange";
@@ -2915,6 +2978,7 @@
             // 
             // checkBoxEnhancedMultilegMediumModelCloserange
             // 
+            this.checkBoxEnhancedMultilegMediumModelCloserange.AutoCheck = false;
             this.checkBoxEnhancedMultilegMediumModelCloserange.AutoSize = true;
             this.checkBoxEnhancedMultilegMediumModelCloserange.Location = new System.Drawing.Point(217, 129);
             this.checkBoxEnhancedMultilegMediumModelCloserange.Name = "checkBoxEnhancedMultilegMediumModelCloserange";
@@ -2925,6 +2989,7 @@
             // 
             // checkBoxEnhancedGoliathBiped
             // 
+            this.checkBoxEnhancedGoliathBiped.AutoCheck = false;
             this.checkBoxEnhancedGoliathBiped.AutoSize = true;
             this.checkBoxEnhancedGoliathBiped.Location = new System.Drawing.Point(14, 152);
             this.checkBoxEnhancedGoliathBiped.Name = "checkBoxEnhancedGoliathBiped";
@@ -2935,6 +3000,7 @@
             // 
             // checkBoxEnhancedGoliathBipedEnhancedLegpower
             // 
+            this.checkBoxEnhancedGoliathBipedEnhancedLegpower.AutoCheck = false;
             this.checkBoxEnhancedGoliathBipedEnhancedLegpower.AutoSize = true;
             this.checkBoxEnhancedGoliathBipedEnhancedLegpower.Location = new System.Drawing.Point(217, 152);
             this.checkBoxEnhancedGoliathBipedEnhancedLegpower.Name = "checkBoxEnhancedGoliathBipedEnhancedLegpower";
@@ -2945,6 +3011,7 @@
             // 
             // checkBoxEnhancedReversejointedGoliath
             // 
+            this.checkBoxEnhancedReversejointedGoliath.AutoCheck = false;
             this.checkBoxEnhancedReversejointedGoliath.AutoSize = true;
             this.checkBoxEnhancedReversejointedGoliath.Location = new System.Drawing.Point(14, 175);
             this.checkBoxEnhancedReversejointedGoliath.Name = "checkBoxEnhancedReversejointedGoliath";
@@ -2955,6 +3022,7 @@
             // 
             // checkBoxEnhancedSmallFlyer
             // 
+            this.checkBoxEnhancedSmallFlyer.AutoCheck = false;
             this.checkBoxEnhancedSmallFlyer.AutoSize = true;
             this.checkBoxEnhancedSmallFlyer.Location = new System.Drawing.Point(14, 198);
             this.checkBoxEnhancedSmallFlyer.Name = "checkBoxEnhancedSmallFlyer";
@@ -2965,6 +3033,7 @@
             // 
             // checkBoxEnhancedMediumFlyer
             // 
+            this.checkBoxEnhancedMediumFlyer.AutoCheck = false;
             this.checkBoxEnhancedMediumFlyer.AutoSize = true;
             this.checkBoxEnhancedMediumFlyer.Location = new System.Drawing.Point(14, 221);
             this.checkBoxEnhancedMediumFlyer.Name = "checkBoxEnhancedMediumFlyer";
@@ -2975,6 +3044,7 @@
             // 
             // checkBoxEnhancedMediumFlyerKamikaze
             // 
+            this.checkBoxEnhancedMediumFlyerKamikaze.AutoCheck = false;
             this.checkBoxEnhancedMediumFlyerKamikaze.AutoSize = true;
             this.checkBoxEnhancedMediumFlyerKamikaze.Location = new System.Drawing.Point(217, 221);
             this.checkBoxEnhancedMediumFlyerKamikaze.Name = "checkBoxEnhancedMediumFlyerKamikaze";
@@ -2985,6 +3055,7 @@
             // 
             // checkBoxEnhancedMediumFlyerGunnerx2Kamikazex2
             // 
+            this.checkBoxEnhancedMediumFlyerGunnerx2Kamikazex2.AutoCheck = false;
             this.checkBoxEnhancedMediumFlyerGunnerx2Kamikazex2.AutoSize = true;
             this.checkBoxEnhancedMediumFlyerGunnerx2Kamikazex2.Location = new System.Drawing.Point(422, 221);
             this.checkBoxEnhancedMediumFlyerGunnerx2Kamikazex2.Name = "checkBoxEnhancedMediumFlyerGunnerx2Kamikazex2";
@@ -2995,6 +3066,7 @@
             // 
             // checkBoxEnhancedSmallSphereAxe
             // 
+            this.checkBoxEnhancedSmallSphereAxe.AutoCheck = false;
             this.checkBoxEnhancedSmallSphereAxe.AutoSize = true;
             this.checkBoxEnhancedSmallSphereAxe.Location = new System.Drawing.Point(14, 244);
             this.checkBoxEnhancedSmallSphereAxe.Name = "checkBoxEnhancedSmallSphereAxe";
@@ -3005,6 +3077,7 @@
             // 
             // checkBoxEnhancedSmallSphereDrill
             // 
+            this.checkBoxEnhancedSmallSphereDrill.AutoCheck = false;
             this.checkBoxEnhancedSmallSphereDrill.AutoSize = true;
             this.checkBoxEnhancedSmallSphereDrill.Location = new System.Drawing.Point(217, 244);
             this.checkBoxEnhancedSmallSphereDrill.Name = "checkBoxEnhancedSmallSphereDrill";
@@ -3015,6 +3088,7 @@
             // 
             // checkBoxEnhancedSmallSphereGun
             // 
+            this.checkBoxEnhancedSmallSphereGun.AutoCheck = false;
             this.checkBoxEnhancedSmallSphereGun.AutoSize = true;
             this.checkBoxEnhancedSmallSphereGun.Location = new System.Drawing.Point(422, 244);
             this.checkBoxEnhancedSmallSphereGun.Name = "checkBoxEnhancedSmallSphereGun";
@@ -3025,6 +3099,7 @@
             // 
             // checkBoxEnhancedLinkedsphereTypeSaw
             // 
+            this.checkBoxEnhancedLinkedsphereTypeSaw.AutoCheck = false;
             this.checkBoxEnhancedLinkedsphereTypeSaw.AutoSize = true;
             this.checkBoxEnhancedLinkedsphereTypeSaw.Location = new System.Drawing.Point(14, 267);
             this.checkBoxEnhancedLinkedsphereTypeSaw.Name = "checkBoxEnhancedLinkedsphereTypeSaw";
@@ -3035,6 +3110,7 @@
             // 
             // checkBoxEnhancedLinkedsphereTypeDrill
             // 
+            this.checkBoxEnhancedLinkedsphereTypeDrill.AutoCheck = false;
             this.checkBoxEnhancedLinkedsphereTypeDrill.AutoSize = true;
             this.checkBoxEnhancedLinkedsphereTypeDrill.Location = new System.Drawing.Point(217, 267);
             this.checkBoxEnhancedLinkedsphereTypeDrill.Name = "checkBoxEnhancedLinkedsphereTypeDrill";
@@ -3045,6 +3121,7 @@
             // 
             // checkBoxEnhancedLinkedsphereTypeGun
             // 
+            this.checkBoxEnhancedLinkedsphereTypeGun.AutoCheck = false;
             this.checkBoxEnhancedLinkedsphereTypeGun.AutoSize = true;
             this.checkBoxEnhancedLinkedsphereTypeGun.Location = new System.Drawing.Point(422, 267);
             this.checkBoxEnhancedLinkedsphereTypeGun.Name = "checkBoxEnhancedLinkedsphereTypeGun";
@@ -3068,6 +3145,7 @@
             // 
             // checkBoxEMPSmallStubby
             // 
+            this.checkBoxEMPSmallStubby.AutoCheck = false;
             this.checkBoxEMPSmallStubby.AutoSize = true;
             this.checkBoxEMPSmallStubby.Location = new System.Drawing.Point(14, 14);
             this.checkBoxEMPSmallStubby.Name = "checkBoxEMPSmallStubby";
@@ -3078,6 +3156,7 @@
             // 
             // checkBoxEMPSmallBiped
             // 
+            this.checkBoxEMPSmallBiped.AutoCheck = false;
             this.checkBoxEMPSmallBiped.AutoSize = true;
             this.checkBoxEMPSmallBiped.Location = new System.Drawing.Point(14, 37);
             this.checkBoxEMPSmallBiped.Name = "checkBoxEMPSmallBiped";
@@ -3088,6 +3167,7 @@
             // 
             // checkBoxEMPMediumBiped
             // 
+            this.checkBoxEMPMediumBiped.AutoCheck = false;
             this.checkBoxEMPMediumBiped.AutoSize = true;
             this.checkBoxEMPMediumBiped.Location = new System.Drawing.Point(14, 60);
             this.checkBoxEMPMediumBiped.Name = "checkBoxEMPMediumBiped";
@@ -3098,6 +3178,7 @@
             // 
             // checkBoxEMPGoliathBiped
             // 
+            this.checkBoxEMPGoliathBiped.AutoCheck = false;
             this.checkBoxEMPGoliathBiped.AutoSize = true;
             this.checkBoxEMPGoliathBiped.Location = new System.Drawing.Point(14, 83);
             this.checkBoxEMPGoliathBiped.Name = "checkBoxEMPGoliathBiped";
@@ -3144,6 +3225,7 @@
             // 
             // checkBoxSpecialHegel2
             // 
+            this.checkBoxSpecialHegel2.AutoCheck = false;
             this.checkBoxSpecialHegel2.AutoSize = true;
             this.checkBoxSpecialHegel2.Location = new System.Drawing.Point(196, 313);
             this.checkBoxSpecialHegel2.Name = "checkBoxSpecialHegel2";
@@ -3154,6 +3236,7 @@
             // 
             // checkBoxSpecialMarx
             // 
+            this.checkBoxSpecialMarx.AutoCheck = false;
             this.checkBoxSpecialMarx.AutoSize = true;
             this.checkBoxSpecialMarx.Location = new System.Drawing.Point(14, 14);
             this.checkBoxSpecialMarx.Name = "checkBoxSpecialMarx";
@@ -3164,6 +3247,7 @@
             // 
             // checkBoxSpecialEngels
             // 
+            this.checkBoxSpecialEngels.AutoCheck = false;
             this.checkBoxSpecialEngels.AutoSize = true;
             this.checkBoxSpecialEngels.Location = new System.Drawing.Point(14, 37);
             this.checkBoxSpecialEngels.Name = "checkBoxSpecialEngels";
@@ -3174,6 +3258,7 @@
             // 
             // checkBoxSpecialAdamFirstEncounter
             // 
+            this.checkBoxSpecialAdamFirstEncounter.AutoCheck = false;
             this.checkBoxSpecialAdamFirstEncounter.AutoSize = true;
             this.checkBoxSpecialAdamFirstEncounter.Location = new System.Drawing.Point(14, 60);
             this.checkBoxSpecialAdamFirstEncounter.Name = "checkBoxSpecialAdamFirstEncounter";
@@ -3184,6 +3269,7 @@
             // 
             // checkBoxSpecialAdamBattleintheAlienShip
             // 
+            this.checkBoxSpecialAdamBattleintheAlienShip.AutoCheck = false;
             this.checkBoxSpecialAdamBattleintheAlienShip.AutoSize = true;
             this.checkBoxSpecialAdamBattleintheAlienShip.Location = new System.Drawing.Point(196, 60);
             this.checkBoxSpecialAdamBattleintheAlienShip.Name = "checkBoxSpecialAdamBattleintheAlienShip";
@@ -3194,6 +3280,7 @@
             // 
             // checkBoxSpecialAdamFinalBattle
             // 
+            this.checkBoxSpecialAdamFinalBattle.AutoCheck = false;
             this.checkBoxSpecialAdamFinalBattle.AutoSize = true;
             this.checkBoxSpecialAdamFinalBattle.Location = new System.Drawing.Point(367, 60);
             this.checkBoxSpecialAdamFinalBattle.Name = "checkBoxSpecialAdamFinalBattle";
@@ -3204,6 +3291,7 @@
             // 
             // checkBoxSpecialEveFirstEncounter
             // 
+            this.checkBoxSpecialEveFirstEncounter.AutoCheck = false;
             this.checkBoxSpecialEveFirstEncounter.AutoSize = true;
             this.checkBoxSpecialEveFirstEncounter.Location = new System.Drawing.Point(14, 83);
             this.checkBoxSpecialEveFirstEncounter.Name = "checkBoxSpecialEveFirstEncounter";
@@ -3214,6 +3302,7 @@
             // 
             // checkBoxSpecialEveBattleintheAlienShip
             // 
+            this.checkBoxSpecialEveBattleintheAlienShip.AutoCheck = false;
             this.checkBoxSpecialEveBattleintheAlienShip.AutoSize = true;
             this.checkBoxSpecialEveBattleintheAlienShip.Location = new System.Drawing.Point(196, 83);
             this.checkBoxSpecialEveBattleintheAlienShip.Name = "checkBoxSpecialEveBattleintheAlienShip";
@@ -3224,6 +3313,7 @@
             // 
             // checkBoxSpecialEveFinalBattle
             // 
+            this.checkBoxSpecialEveFinalBattle.AutoCheck = false;
             this.checkBoxSpecialEveFinalBattle.AutoSize = true;
             this.checkBoxSpecialEveFinalBattle.Location = new System.Drawing.Point(367, 83);
             this.checkBoxSpecialEveFinalBattle.Name = "checkBoxSpecialEveFinalBattle";
@@ -3234,6 +3324,7 @@
             // 
             // checkBoxSpecialEveFinalBattle2
             // 
+            this.checkBoxSpecialEveFinalBattle2.AutoCheck = false;
             this.checkBoxSpecialEveFinalBattle2.AutoSize = true;
             this.checkBoxSpecialEveFinalBattle2.Location = new System.Drawing.Point(486, 83);
             this.checkBoxSpecialEveFinalBattle2.Name = "checkBoxSpecialEveFinalBattle2";
@@ -3244,6 +3335,7 @@
             // 
             // checkBoxSpecialGoliathTankAmusementPark
             // 
+            this.checkBoxSpecialGoliathTankAmusementPark.AutoCheck = false;
             this.checkBoxSpecialGoliathTankAmusementPark.AutoSize = true;
             this.checkBoxSpecialGoliathTankAmusementPark.Location = new System.Drawing.Point(14, 106);
             this.checkBoxSpecialGoliathTankAmusementPark.Name = "checkBoxSpecialGoliathTankAmusementPark";
@@ -3254,6 +3346,7 @@
             // 
             // checkBoxSpecialBeauvoirSimone
             // 
+            this.checkBoxSpecialBeauvoirSimone.AutoCheck = false;
             this.checkBoxSpecialBeauvoirSimone.AutoSize = true;
             this.checkBoxSpecialBeauvoirSimone.Location = new System.Drawing.Point(14, 129);
             this.checkBoxSpecialBeauvoirSimone.Name = "checkBoxSpecialBeauvoirSimone";
@@ -3264,6 +3357,7 @@
             // 
             // checkBoxSpecialGoliathFlyer
             // 
+            this.checkBoxSpecialGoliathFlyer.AutoCheck = false;
             this.checkBoxSpecialGoliathFlyer.AutoSize = true;
             this.checkBoxSpecialGoliathFlyer.Location = new System.Drawing.Point(14, 152);
             this.checkBoxSpecialGoliathFlyer.Name = "checkBoxSpecialGoliathFlyer";
@@ -3274,6 +3368,7 @@
             // 
             // checkBoxSpecialGrun
             // 
+            this.checkBoxSpecialGrun.AutoCheck = false;
             this.checkBoxSpecialGrun.AutoSize = true;
             this.checkBoxSpecialGrun.Location = new System.Drawing.Point(14, 175);
             this.checkBoxSpecialGrun.Name = "checkBoxSpecialGrun";
@@ -3284,6 +3379,7 @@
             // 
             // checkBoxSpecialImmanuel
             // 
+            this.checkBoxSpecialImmanuel.AutoCheck = false;
             this.checkBoxSpecialImmanuel.AutoSize = true;
             this.checkBoxSpecialImmanuel.Location = new System.Drawing.Point(14, 198);
             this.checkBoxSpecialImmanuel.Name = "checkBoxSpecialImmanuel";
@@ -3294,6 +3390,7 @@
             // 
             // checkBoxSpecialErnst
             // 
+            this.checkBoxSpecialErnst.AutoCheck = false;
             this.checkBoxSpecialErnst.AutoSize = true;
             this.checkBoxSpecialErnst.Location = new System.Drawing.Point(14, 221);
             this.checkBoxSpecialErnst.Name = "checkBoxSpecialErnst";
@@ -3304,6 +3401,7 @@
             // 
             // checkBoxSpecialKierkegaard
             // 
+            this.checkBoxSpecialKierkegaard.AutoCheck = false;
             this.checkBoxSpecialKierkegaard.AutoSize = true;
             this.checkBoxSpecialKierkegaard.Location = new System.Drawing.Point(14, 244);
             this.checkBoxSpecialKierkegaard.Name = "checkBoxSpecialKierkegaard";
@@ -3314,6 +3412,7 @@
             // 
             // checkBoxSpecialSoShi
             // 
+            this.checkBoxSpecialSoShi.AutoCheck = false;
             this.checkBoxSpecialSoShi.AutoSize = true;
             this.checkBoxSpecialSoShi.Location = new System.Drawing.Point(14, 267);
             this.checkBoxSpecialSoShi.Name = "checkBoxSpecialSoShi";
@@ -3324,6 +3423,7 @@
             // 
             // checkBoxSpecialBokuShi
             // 
+            this.checkBoxSpecialBokuShi.AutoCheck = false;
             this.checkBoxSpecialBokuShi.AutoSize = true;
             this.checkBoxSpecialBokuShi.Location = new System.Drawing.Point(14, 290);
             this.checkBoxSpecialBokuShi.Name = "checkBoxSpecialBokuShi";
@@ -3334,6 +3434,7 @@
             // 
             // checkBoxSpecialHegel
             // 
+            this.checkBoxSpecialHegel.AutoCheck = false;
             this.checkBoxSpecialHegel.AutoSize = true;
             this.checkBoxSpecialHegel.Location = new System.Drawing.Point(14, 313);
             this.checkBoxSpecialHegel.Name = "checkBoxSpecialHegel";
@@ -3344,6 +3445,7 @@
             // 
             // checkBoxSpecialGoliathTank
             // 
+            this.checkBoxSpecialGoliathTank.AutoCheck = false;
             this.checkBoxSpecialGoliathTank.AutoSize = true;
             this.checkBoxSpecialGoliathTank.Location = new System.Drawing.Point(14, 336);
             this.checkBoxSpecialGoliathTank.Name = "checkBoxSpecialGoliathTank";
@@ -3354,6 +3456,7 @@
             // 
             // checkBoxSpecialAuguste
             // 
+            this.checkBoxSpecialAuguste.AutoCheck = false;
             this.checkBoxSpecialAuguste.AutoSize = true;
             this.checkBoxSpecialAuguste.Location = new System.Drawing.Point(14, 359);
             this.checkBoxSpecialAuguste.Name = "checkBoxSpecialAuguste";
@@ -3364,6 +3467,7 @@
             // 
             // checkBoxSpecialFriedrich
             // 
+            this.checkBoxSpecialFriedrich.AutoCheck = false;
             this.checkBoxSpecialFriedrich.AutoSize = true;
             this.checkBoxSpecialFriedrich.Location = new System.Drawing.Point(196, 359);
             this.checkBoxSpecialFriedrich.Name = "checkBoxSpecialFriedrich";
@@ -3374,6 +3478,7 @@
             // 
             // checkBoxSpecialKoShi
             // 
+            this.checkBoxSpecialKoShi.AutoCheck = false;
             this.checkBoxSpecialKoShi.AutoSize = true;
             this.checkBoxSpecialKoShi.Location = new System.Drawing.Point(14, 382);
             this.checkBoxSpecialKoShi.Name = "checkBoxSpecialKoShi";
@@ -3384,6 +3489,7 @@
             // 
             // checkBoxSpecialRoShi
             // 
+            this.checkBoxSpecialRoShi.AutoCheck = false;
             this.checkBoxSpecialRoShi.AutoSize = true;
             this.checkBoxSpecialRoShi.Location = new System.Drawing.Point(196, 382);
             this.checkBoxSpecialRoShi.Name = "checkBoxSpecialRoShi";
@@ -3394,6 +3500,7 @@
             // 
             // checkBoxSpecialKoShiRoshi
             // 
+            this.checkBoxSpecialKoShiRoshi.AutoCheck = false;
             this.checkBoxSpecialKoShiRoshi.AutoSize = true;
             this.checkBoxSpecialKoShiRoshi.Location = new System.Drawing.Point(367, 382);
             this.checkBoxSpecialKoShiRoshi.Name = "checkBoxSpecialKoShiRoshi";
@@ -3404,6 +3511,7 @@
             // 
             // checkBoxSpecialRedGirl
             // 
+            this.checkBoxSpecialRedGirl.AutoCheck = false;
             this.checkBoxSpecialRedGirl.AutoSize = true;
             this.checkBoxSpecialRedGirl.Location = new System.Drawing.Point(14, 405);
             this.checkBoxSpecialRedGirl.Name = "checkBoxSpecialRedGirl";
@@ -3436,6 +3544,7 @@
             // 
             // checkBoxAndroidYoRHaHeavyArmament2
             // 
+            this.checkBoxAndroidYoRHaHeavyArmament2.AutoCheck = false;
             this.checkBoxAndroidYoRHaHeavyArmament2.AutoSize = true;
             this.checkBoxAndroidYoRHaHeavyArmament2.Location = new System.Drawing.Point(183, 37);
             this.checkBoxAndroidYoRHaHeavyArmament2.Name = "checkBoxAndroidYoRHaHeavyArmament2";
@@ -3446,6 +3555,7 @@
             // 
             // checkBoxAndroidYoRHaStandardArmament
             // 
+            this.checkBoxAndroidYoRHaStandardArmament.AutoCheck = false;
             this.checkBoxAndroidYoRHaStandardArmament.AutoSize = true;
             this.checkBoxAndroidYoRHaStandardArmament.Location = new System.Drawing.Point(14, 14);
             this.checkBoxAndroidYoRHaStandardArmament.Name = "checkBoxAndroidYoRHaStandardArmament";
@@ -3456,6 +3566,7 @@
             // 
             // checkBoxAndroidYoRHaHeavyArmament
             // 
+            this.checkBoxAndroidYoRHaHeavyArmament.AutoCheck = false;
             this.checkBoxAndroidYoRHaHeavyArmament.AutoSize = true;
             this.checkBoxAndroidYoRHaHeavyArmament.Location = new System.Drawing.Point(14, 37);
             this.checkBoxAndroidYoRHaHeavyArmament.Name = "checkBoxAndroidYoRHaHeavyArmament";
@@ -3466,6 +3577,7 @@
             // 
             // checkBoxAndroidYoRHaFlightUnit
             // 
+            this.checkBoxAndroidYoRHaFlightUnit.AutoCheck = false;
             this.checkBoxAndroidYoRHaFlightUnit.AutoSize = true;
             this.checkBoxAndroidYoRHaFlightUnit.Location = new System.Drawing.Point(14, 60);
             this.checkBoxAndroidYoRHaFlightUnit.Name = "checkBoxAndroidYoRHaFlightUnit";
@@ -3476,6 +3588,7 @@
             // 
             // checkBoxAndroidYoRHaOperator
             // 
+            this.checkBoxAndroidYoRHaOperator.AutoCheck = false;
             this.checkBoxAndroidYoRHaOperator.AutoSize = true;
             this.checkBoxAndroidYoRHaOperator.Location = new System.Drawing.Point(14, 83);
             this.checkBoxAndroidYoRHaOperator.Name = "checkBoxAndroidYoRHaOperator";
@@ -3486,6 +3599,7 @@
             // 
             // checkBoxAndroid8B
             // 
+            this.checkBoxAndroid8B.AutoCheck = false;
             this.checkBoxAndroid8B.AutoSize = true;
             this.checkBoxAndroid8B.Location = new System.Drawing.Point(14, 106);
             this.checkBoxAndroid8B.Name = "checkBoxAndroid8B";
@@ -3496,6 +3610,7 @@
             // 
             // checkBoxAndroid22B
             // 
+            this.checkBoxAndroid22B.AutoCheck = false;
             this.checkBoxAndroid22B.AutoSize = true;
             this.checkBoxAndroid22B.Location = new System.Drawing.Point(14, 129);
             this.checkBoxAndroid22B.Name = "checkBoxAndroid22B";
@@ -3506,6 +3621,7 @@
             // 
             // checkBoxAndroid64B
             // 
+            this.checkBoxAndroid64B.AutoCheck = false;
             this.checkBoxAndroid64B.AutoSize = true;
             this.checkBoxAndroid64B.Location = new System.Drawing.Point(14, 152);
             this.checkBoxAndroid64B.Name = "checkBoxAndroid64B";
@@ -3516,6 +3632,7 @@
             // 
             // checkBoxAndroid21O
             // 
+            this.checkBoxAndroid21O.AutoCheck = false;
             this.checkBoxAndroid21O.AutoSize = true;
             this.checkBoxAndroid21O.Location = new System.Drawing.Point(14, 175);
             this.checkBoxAndroid21O.Name = "checkBoxAndroid21O";
@@ -3526,6 +3643,7 @@
             // 
             // checkBoxAndroid2BCopy
             // 
+            this.checkBoxAndroid2BCopy.AutoCheck = false;
             this.checkBoxAndroid2BCopy.AutoSize = true;
             this.checkBoxAndroid2BCopy.Location = new System.Drawing.Point(14, 198);
             this.checkBoxAndroid2BCopy.Name = "checkBoxAndroid2BCopy";
@@ -3536,6 +3654,7 @@
             // 
             // checkBoxAndroid9S
             // 
+            this.checkBoxAndroid9S.AutoCheck = false;
             this.checkBoxAndroid9S.AutoSize = true;
             this.checkBoxAndroid9S.Location = new System.Drawing.Point(14, 221);
             this.checkBoxAndroid9S.Name = "checkBoxAndroid9S";
@@ -3546,6 +3665,7 @@
             // 
             // checkBoxAndroidA2LongHair
             // 
+            this.checkBoxAndroidA2LongHair.AutoCheck = false;
             this.checkBoxAndroidA2LongHair.AutoSize = true;
             this.checkBoxAndroidA2LongHair.Location = new System.Drawing.Point(14, 244);
             this.checkBoxAndroidA2LongHair.Name = "checkBoxAndroidA2LongHair";
@@ -3556,6 +3676,7 @@
             // 
             // checkBoxAndroidA2ShortHair
             // 
+            this.checkBoxAndroidA2ShortHair.AutoCheck = false;
             this.checkBoxAndroidA2ShortHair.AutoSize = true;
             this.checkBoxAndroidA2ShortHair.Location = new System.Drawing.Point(14, 267);
             this.checkBoxAndroidA2ShortHair.Name = "checkBoxAndroidA2ShortHair";
@@ -3591,6 +3712,7 @@
             // 
             // checkBoxPeculiarCourageousBrother
             // 
+            this.checkBoxPeculiarCourageousBrother.AutoCheck = false;
             this.checkBoxPeculiarCourageousBrother.AutoSize = true;
             this.checkBoxPeculiarCourageousBrother.Location = new System.Drawing.Point(14, 14);
             this.checkBoxPeculiarCourageousBrother.Name = "checkBoxPeculiarCourageousBrother";
@@ -3601,6 +3723,7 @@
             // 
             // checkBoxPeculiarHatefulSister
             // 
+            this.checkBoxPeculiarHatefulSister.AutoCheck = false;
             this.checkBoxPeculiarHatefulSister.AutoSize = true;
             this.checkBoxPeculiarHatefulSister.Location = new System.Drawing.Point(14, 37);
             this.checkBoxPeculiarHatefulSister.Name = "checkBoxPeculiarHatefulSister";
@@ -3611,6 +3734,7 @@
             // 
             // checkBoxPeculiarVengefulChild
             // 
+            this.checkBoxPeculiarVengefulChild.AutoCheck = false;
             this.checkBoxPeculiarVengefulChild.AutoSize = true;
             this.checkBoxPeculiarVengefulChild.Location = new System.Drawing.Point(14, 60);
             this.checkBoxPeculiarVengefulChild.Name = "checkBoxPeculiarVengefulChild";
@@ -3621,6 +3745,7 @@
             // 
             // checkBoxPeculiarGoldTank
             // 
+            this.checkBoxPeculiarGoldTank.AutoCheck = false;
             this.checkBoxPeculiarGoldTank.AutoSize = true;
             this.checkBoxPeculiarGoldTank.Location = new System.Drawing.Point(14, 83);
             this.checkBoxPeculiarGoldTank.Name = "checkBoxPeculiarGoldTank";
@@ -3631,6 +3756,7 @@
             // 
             // checkBoxPeculiarGoldGoliathBiped
             // 
+            this.checkBoxPeculiarGoldGoliathBiped.AutoCheck = false;
             this.checkBoxPeculiarGoldGoliathBiped.AutoSize = true;
             this.checkBoxPeculiarGoldGoliathBiped.Location = new System.Drawing.Point(14, 106);
             this.checkBoxPeculiarGoldGoliathBiped.Name = "checkBoxPeculiarGoldGoliathBiped";
@@ -3641,6 +3767,7 @@
             // 
             // checkBoxPeculiarGoliathTankDesert
             // 
+            this.checkBoxPeculiarGoliathTankDesert.AutoCheck = false;
             this.checkBoxPeculiarGoliathTankDesert.AutoSize = true;
             this.checkBoxPeculiarGoliathTankDesert.Location = new System.Drawing.Point(14, 129);
             this.checkBoxPeculiarGoliathTankDesert.Name = "checkBoxPeculiarGoliathTankDesert";
@@ -3651,6 +3778,7 @@
             // 
             // checkBoxPeculiarGunmanBiped
             // 
+            this.checkBoxPeculiarGunmanBiped.AutoCheck = false;
             this.checkBoxPeculiarGunmanBiped.AutoSize = true;
             this.checkBoxPeculiarGunmanBiped.Location = new System.Drawing.Point(14, 152);
             this.checkBoxPeculiarGunmanBiped.Name = "checkBoxPeculiarGunmanBiped";
@@ -3661,6 +3789,7 @@
             // 
             // checkBoxPeculiarGunmanFlyer
             // 
+            this.checkBoxPeculiarGunmanFlyer.AutoCheck = false;
             this.checkBoxPeculiarGunmanFlyer.AutoSize = true;
             this.checkBoxPeculiarGunmanFlyer.Location = new System.Drawing.Point(14, 175);
             this.checkBoxPeculiarGunmanFlyer.Name = "checkBoxPeculiarGunmanFlyer";
@@ -3671,6 +3800,7 @@
             // 
             // checkBoxPeculiarGunmanStubby
             // 
+            this.checkBoxPeculiarGunmanStubby.AutoCheck = false;
             this.checkBoxPeculiarGunmanStubby.AutoSize = true;
             this.checkBoxPeculiarGunmanStubby.Location = new System.Drawing.Point(14, 198);
             this.checkBoxPeculiarGunmanStubby.Name = "checkBoxPeculiarGunmanStubby";
@@ -3681,6 +3811,7 @@
             // 
             // checkBoxPeculiarBlooddrenchedMachine
             // 
+            this.checkBoxPeculiarBlooddrenchedMachine.AutoCheck = false;
             this.checkBoxPeculiarBlooddrenchedMachine.AutoSize = true;
             this.checkBoxPeculiarBlooddrenchedMachine.Location = new System.Drawing.Point(14, 221);
             this.checkBoxPeculiarBlooddrenchedMachine.Name = "checkBoxPeculiarBlooddrenchedMachine";
@@ -3691,6 +3822,7 @@
             // 
             // checkBoxPeculiarAmusementParkRabbit
             // 
+            this.checkBoxPeculiarAmusementParkRabbit.AutoCheck = false;
             this.checkBoxPeculiarAmusementParkRabbit.AutoSize = true;
             this.checkBoxPeculiarAmusementParkRabbit.Location = new System.Drawing.Point(14, 244);
             this.checkBoxPeculiarAmusementParkRabbit.Name = "checkBoxPeculiarAmusementParkRabbit";
@@ -3701,6 +3833,7 @@
             // 
             // checkBoxPeculiarZombieClown
             // 
+            this.checkBoxPeculiarZombieClown.AutoCheck = false;
             this.checkBoxPeculiarZombieClown.AutoSize = true;
             this.checkBoxPeculiarZombieClown.Location = new System.Drawing.Point(14, 267);
             this.checkBoxPeculiarZombieClown.Name = "checkBoxPeculiarZombieClown";
@@ -3711,6 +3844,7 @@
             // 
             // checkBoxPeculiarAnimalMachine
             // 
+            this.checkBoxPeculiarAnimalMachine.AutoCheck = false;
             this.checkBoxPeculiarAnimalMachine.AutoSize = true;
             this.checkBoxPeculiarAnimalMachine.Location = new System.Drawing.Point(14, 290);
             this.checkBoxPeculiarAnimalMachine.Name = "checkBoxPeculiarAnimalMachine";
@@ -3721,6 +3855,7 @@
             // 
             // checkBoxPeculiarGravekeeper
             // 
+            this.checkBoxPeculiarGravekeeper.AutoCheck = false;
             this.checkBoxPeculiarGravekeeper.AutoSize = true;
             this.checkBoxPeculiarGravekeeper.Location = new System.Drawing.Point(14, 313);
             this.checkBoxPeculiarGravekeeper.Name = "checkBoxPeculiarGravekeeper";
@@ -3731,6 +3866,7 @@
             // 
             // checkBoxPeculiarMonsterType
             // 
+            this.checkBoxPeculiarMonsterType.AutoCheck = false;
             this.checkBoxPeculiarMonsterType.AutoSize = true;
             this.checkBoxPeculiarMonsterType.Location = new System.Drawing.Point(14, 336);
             this.checkBoxPeculiarMonsterType.Name = "checkBoxPeculiarMonsterType";
@@ -3741,6 +3877,7 @@
             // 
             // checkBoxPeculiarDyingGoliathBiped
             // 
+            this.checkBoxPeculiarDyingGoliathBiped.AutoCheck = false;
             this.checkBoxPeculiarDyingGoliathBiped.AutoSize = true;
             this.checkBoxPeculiarDyingGoliathBiped.Location = new System.Drawing.Point(14, 359);
             this.checkBoxPeculiarDyingGoliathBiped.Name = "checkBoxPeculiarDyingGoliathBiped";
@@ -3773,6 +3910,7 @@
             // 
             // checkBoxAmicableMachinewithaDream
             // 
+            this.checkBoxAmicableMachinewithaDream.AutoCheck = false;
             this.checkBoxAmicableMachinewithaDream.AutoSize = true;
             this.checkBoxAmicableMachinewithaDream.Location = new System.Drawing.Point(14, 14);
             this.checkBoxAmicableMachinewithaDream.Name = "checkBoxAmicableMachinewithaDream";
@@ -3783,6 +3921,7 @@
             // 
             // checkBoxAmicableMachineinLove
             // 
+            this.checkBoxAmicableMachineinLove.AutoCheck = false;
             this.checkBoxAmicableMachineinLove.AutoSize = true;
             this.checkBoxAmicableMachineinLove.Location = new System.Drawing.Point(14, 37);
             this.checkBoxAmicableMachineinLove.Name = "checkBoxAmicableMachineinLove";
@@ -3793,6 +3932,7 @@
             // 
             // checkBoxAmicableMachinewithMakeup
             // 
+            this.checkBoxAmicableMachinewithMakeup.AutoCheck = false;
             this.checkBoxAmicableMachinewithMakeup.AutoSize = true;
             this.checkBoxAmicableMachinewithMakeup.Location = new System.Drawing.Point(14, 60);
             this.checkBoxAmicableMachinewithMakeup.Name = "checkBoxAmicableMachinewithMakeup";
@@ -3803,6 +3943,7 @@
             // 
             // checkBoxAmicableRomeo
             // 
+            this.checkBoxAmicableRomeo.AutoCheck = false;
             this.checkBoxAmicableRomeo.AutoSize = true;
             this.checkBoxAmicableRomeo.Location = new System.Drawing.Point(14, 83);
             this.checkBoxAmicableRomeo.Name = "checkBoxAmicableRomeo";
@@ -3813,6 +3954,7 @@
             // 
             // checkBoxAmicableJuliet
             // 
+            this.checkBoxAmicableJuliet.AutoCheck = false;
             this.checkBoxAmicableJuliet.AutoSize = true;
             this.checkBoxAmicableJuliet.Location = new System.Drawing.Point(14, 106);
             this.checkBoxAmicableJuliet.Name = "checkBoxAmicableJuliet";
@@ -3823,6 +3965,7 @@
             // 
             // checkBoxAmicableFatherServoWhiteBelt
             // 
+            this.checkBoxAmicableFatherServoWhiteBelt.AutoCheck = false;
             this.checkBoxAmicableFatherServoWhiteBelt.AutoSize = true;
             this.checkBoxAmicableFatherServoWhiteBelt.Location = new System.Drawing.Point(14, 129);
             this.checkBoxAmicableFatherServoWhiteBelt.Name = "checkBoxAmicableFatherServoWhiteBelt";
@@ -3833,6 +3976,7 @@
             // 
             // checkBoxAmicableFatherServoBrownBelt
             // 
+            this.checkBoxAmicableFatherServoBrownBelt.AutoCheck = false;
             this.checkBoxAmicableFatherServoBrownBelt.AutoSize = true;
             this.checkBoxAmicableFatherServoBrownBelt.Location = new System.Drawing.Point(162, 129);
             this.checkBoxAmicableFatherServoBrownBelt.Name = "checkBoxAmicableFatherServoBrownBelt";
@@ -3843,6 +3987,7 @@
             // 
             // checkBoxAmicableFatherServoBlackBelt
             // 
+            this.checkBoxAmicableFatherServoBlackBelt.AutoCheck = false;
             this.checkBoxAmicableFatherServoBlackBelt.AutoSize = true;
             this.checkBoxAmicableFatherServoBlackBelt.Location = new System.Drawing.Point(312, 129);
             this.checkBoxAmicableFatherServoBlackBelt.Name = "checkBoxAmicableFatherServoBlackBelt";
@@ -3853,6 +3998,7 @@
             // 
             // checkBoxAmicableFatherServoRedandWhiteBelt
             // 
+            this.checkBoxAmicableFatherServoRedandWhiteBelt.AutoCheck = false;
             this.checkBoxAmicableFatherServoRedandWhiteBelt.AutoSize = true;
             this.checkBoxAmicableFatherServoRedandWhiteBelt.Location = new System.Drawing.Point(459, 129);
             this.checkBoxAmicableFatherServoRedandWhiteBelt.Name = "checkBoxAmicableFatherServoRedandWhiteBelt";
@@ -3863,6 +4009,7 @@
             // 
             // checkBoxAmicableFatherServoRedBelt
             // 
+            this.checkBoxAmicableFatherServoRedBelt.AutoCheck = false;
             this.checkBoxAmicableFatherServoRedBelt.AutoSize = true;
             this.checkBoxAmicableFatherServoRedBelt.Location = new System.Drawing.Point(651, 129);
             this.checkBoxAmicableFatherServoRedBelt.Name = "checkBoxAmicableFatherServoRedBelt";
@@ -3873,6 +4020,7 @@
             // 
             // checkBoxAmicableAnimallovingMachine
             // 
+            this.checkBoxAmicableAnimallovingMachine.AutoCheck = false;
             this.checkBoxAmicableAnimallovingMachine.AutoSize = true;
             this.checkBoxAmicableAnimallovingMachine.Location = new System.Drawing.Point(14, 152);
             this.checkBoxAmicableAnimallovingMachine.Name = "checkBoxAmicableAnimallovingMachine";
@@ -3883,6 +4031,7 @@
             // 
             // checkBoxAmicableHighspeedMachine
             // 
+            this.checkBoxAmicableHighspeedMachine.AutoCheck = false;
             this.checkBoxAmicableHighspeedMachine.AutoSize = true;
             this.checkBoxAmicableHighspeedMachine.Location = new System.Drawing.Point(14, 175);
             this.checkBoxAmicableHighspeedMachine.Name = "checkBoxAmicableHighspeedMachine";
@@ -3893,6 +4042,7 @@
             // 
             // checkBoxAmicableMasamune
             // 
+            this.checkBoxAmicableMasamune.AutoCheck = false;
             this.checkBoxAmicableMasamune.AutoSize = true;
             this.checkBoxAmicableMasamune.Location = new System.Drawing.Point(14, 198);
             this.checkBoxAmicableMasamune.Name = "checkBoxAmicableMasamune";
@@ -3915,6 +4065,7 @@
             // 
             // checkBoxEmilEmil
             // 
+            this.checkBoxEmilEmil.AutoCheck = false;
             this.checkBoxEmilEmil.AutoSize = true;
             this.checkBoxEmilEmil.Location = new System.Drawing.Point(14, 14);
             this.checkBoxEmilEmil.Name = "checkBoxEmilEmil";
@@ -3925,6 +4076,7 @@
             // 
             // checkBoxEmilEmilClonesFlying
             // 
+            this.checkBoxEmilEmilClonesFlying.AutoCheck = false;
             this.checkBoxEmilEmilClonesFlying.AutoSize = true;
             this.checkBoxEmilEmilClonesFlying.Location = new System.Drawing.Point(14, 37);
             this.checkBoxEmilEmilClonesFlying.Name = "checkBoxEmilEmilClonesFlying";
@@ -3935,6 +4087,7 @@
             // 
             // checkBoxEmilEmilClonesGround
             // 
+            this.checkBoxEmilEmilClonesGround.AutoCheck = false;
             this.checkBoxEmilEmilClonesGround.AutoSize = true;
             this.checkBoxEmilEmilClonesGround.Location = new System.Drawing.Point(136, 37);
             this.checkBoxEmilEmilClonesGround.Name = "checkBoxEmilEmilClonesGround";
@@ -4008,7 +4161,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "IntelDisplay";
-            this.Text = "NieR:Automata Intel Tracker";
+            this.Text = "NieR:Automata Intel Tracker v0.2";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
