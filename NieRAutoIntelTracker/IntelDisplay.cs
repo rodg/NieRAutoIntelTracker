@@ -68,18 +68,18 @@ namespace NieRAutoIntelTracker
             this.checkBoxTwinfish.Checked = (buffer[3] & (byte)FishIntel.TWINFISH) != 0;
             this.checkBoxArowana.Checked = this.checkBoxArowana2.Checked = this.checkBoxArowana3.Checked = this.checkBoxArowana4.Checked = (buffer[3] & (byte)FishIntel.AROWANA) != 0;
 
-            this.checkBoxIronPipe.Checked = (buffer[4] & (byte)FishIntel.IRON_PIPE) != 0;
-            this.checkBoxPodB.Checked = (buffer[4] & (byte)FishIntel.POD_B) != 0;
-            this.checkBoxBrokenFirearm.Checked = this.checkBoxBrokenFirearm2.Checked = (buffer[4] & (byte)FishIntel.BROKEN_FIREARM) != 0;
+            this.checkBoxIronPipe.Checked = (buffer[6] & (byte)FishIntel.IRON_PIPE) != 0;
+            this.checkBoxPodB.Checked = (buffer[6] & (byte)FishIntel.POD_B) != 0;
+            this.checkBoxBrokenFirearm.Checked = this.checkBoxBrokenFirearm2.Checked = (buffer[6] & (byte)FishIntel.BROKEN_FIREARM) != 0;
 
-            this.checkBoxBattery.Checked = this.checkBoxBattery2.Checked = (buffer[5] & (byte)FishIntel.BATTERY) != 0;
-            this.checkBoxGasCylinder.Checked = this.checkBoxGasCylinder2.Checked = this.checkBoxGasCylinder3.Checked = (buffer[5] & (byte)FishIntel.GAS_CYLINDER) != 0;
-            this.checkBoxTire.Checked = this.checkBoxTire2.Checked = (buffer[5] & (byte)FishIntel.TIRE) != 0;
-            this.checkBoxMachineHead.Checked = (buffer[5] & (byte)FishIntel.MACHINE_LIFEFORM_HEAD) != 0;
-            this.checkBoxFreshwaterRayM.Checked = (buffer[5] & (byte)FishIntel.FRESHWATER_RAY_MACHINE) != 0;
-            this.checkBoxBaskingSharkM.Checked = (buffer[5] & (byte)FishIntel.BASKING_SHARK_MACHINE) != 0;
-            this.checkBoxArowanaM.Checked = (buffer[5] & (byte)FishIntel.AROWANA_MACHINE) != 0;
-            this.checkBoxHorseshoeCrabM.Checked = (buffer[5] & (byte)FishIntel.HORSESHOE_CRAB_MACHINE) != 0;
+            this.checkBoxBattery.Checked = this.checkBoxBattery2.Checked = (buffer[7] & (byte)FishIntel.BATTERY) != 0;
+            this.checkBoxGasCylinder.Checked = this.checkBoxGasCylinder2.Checked = this.checkBoxGasCylinder3.Checked = (buffer[7] & (byte)FishIntel.GAS_CYLINDER) != 0;
+            this.checkBoxTire.Checked = this.checkBoxTire2.Checked = (buffer[7] & (byte)FishIntel.TIRE) != 0;
+            this.checkBoxMachineHead.Checked = (buffer[7] & (byte)FishIntel.MACHINE_LIFEFORM_HEAD) != 0;
+            this.checkBoxFreshwaterRayM.Checked = (buffer[7] & (byte)FishIntel.FRESHWATER_RAY_MACHINE) != 0;
+            this.checkBoxBaskingSharkM.Checked = (buffer[7] & (byte)FishIntel.BASKING_SHARK_MACHINE) != 0;
+            this.checkBoxArowanaM.Checked = (buffer[7] & (byte)FishIntel.AROWANA_MACHINE) != 0;
+            this.checkBoxHorseshoeCrabM.Checked = (buffer[7] & (byte)FishIntel.HORSESHOE_CRAB_MACHINE) != 0;
 
             int currentCount = buffer.Select(s => BitCount.PrecomputedBitcount(s)).Sum();
             this.textProgressBarFish.Value = currentCount;
