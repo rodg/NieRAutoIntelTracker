@@ -19,8 +19,8 @@ namespace NieRAutoIntelTracker
         private CancellationTokenSource _cancelSource;
         private DeepPointer _intelFishPtr;
         private DeepPointer _intelFishPtrDebug;
-        public ulong IntelFishCurrent { get; set; }
-        public ulong IntelFishOld { get; set; }
+        public byte[] IntelFishCurrent { get; set; }
+        public byte[] IntelFishOld { get; set; }
         public byte[] IntelUnitCurrent { get; set; }
         public byte[] IntelUnitOld { get; set; }
 
@@ -31,6 +31,7 @@ namespace NieRAutoIntelTracker
             _intelFishPtr = new DeepPointer(0x198452C); // 0x197C460
             _intelFishPtrDebug = new DeepPointer(0x25AF8AC); // 0x25A77E0
             _intelDisplay = intelDisplay;
+            IntelFishCurrent = new byte[1];
             IntelUnitCurrent = new byte[1];
         }
 
@@ -72,6 +73,7 @@ namespace NieRAutoIntelTracker
                 try
                 {
                     Trace.WriteLine("[NierIntelTracker] Waiting for NieRAutomata.exe...");
+                    _intelDisplay.updateComponentDisplayStatus("Checking for game process");
 
                     Process game;
                     while ((game = GetGameProcess()) == null)
@@ -110,28 +112,12 @@ namespace NieRAutoIntelTracker
                     while (!game.HasExited)
                     {
                         ulong _intelFishCurrent;
-                        FishPtr.Deref(game, out _intelFishCurrent);
                         IntelFishOld = IntelFishCurrent;
-                        IntelFishCurrent = _intelFishCurrent;
+                        IntelFishCurrent = FishPtr.DerefBytes(game, 8);
 
-                        if (IntelFishCurrent != IntelFishOld)
+                        if (!IntelFishCurrent.SequenceEqual(IntelFishOld))
                         {
-                            // this._intelDisplay.UpdateDebugDisplay(IntelFishCurrent.ToString("X"));
-
-                            // split long into byte array to simplify flags
-                            byte[] _buffer = new byte[8];
-
-                            _buffer[0] = (byte) IntelFishCurrent;
-                            _buffer[1] = (byte)(IntelFishCurrent >> 8);
-                            _buffer[2] = (byte)(IntelFishCurrent >> 16);
-                            _buffer[3] = (byte)(IntelFishCurrent >> 24);
-
-                            //_buffer[4] = (byte)(IntelFishCurrent >> 32);
-                            //_buffer[5] = (byte)(IntelFishCurrent >> 40);
-                            _buffer[4] = (byte)(IntelFishCurrent >> 48);
-                            _buffer[5] = (byte)(IntelFishCurrent >> 56);
-
-                            this._intelDisplay.UpdateFishIntel(_buffer);
+                            this._intelDisplay.UpdateFishIntel(IntelFishCurrent);
                         }
 
                         IntelUnitOld = IntelUnitCurrent;

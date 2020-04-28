@@ -1589,7 +1589,7 @@
             // 
             this.textProgressBarSpecial.CustomText = "Special";
             this.textProgressBarSpecial.Location = new System.Drawing.Point(20, 91);
-            this.textProgressBarSpecial.Maximum = 27;
+            this.textProgressBarSpecial.Maximum = 26;
             this.textProgressBarSpecial.Name = "textProgressBarSpecial";
             this.textProgressBarSpecial.ProgressColor = System.Drawing.Color.LightGreen;
             this.textProgressBarSpecial.Size = new System.Drawing.Size(100, 23);
@@ -1631,7 +1631,7 @@
             // 
             this.textProgressBarVillage.CustomText = "Village";
             this.textProgressBarVillage.Location = new System.Drawing.Point(190, 51);
-            this.textProgressBarVillage.Maximum = 18;
+            this.textProgressBarVillage.Maximum = 17;
             this.textProgressBarVillage.Name = "textProgressBarVillage";
             this.textProgressBarVillage.ProgressColor = System.Drawing.Color.LightGreen;
             this.textProgressBarVillage.Size = new System.Drawing.Size(100, 23);
@@ -4161,7 +4161,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "IntelDisplay";
-            this.Text = "NieR:Automata Intel Tracker v0.2";
+            this.Text = "NieR:Automata Intel Tracker v0.3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
