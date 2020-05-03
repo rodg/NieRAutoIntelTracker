@@ -122,7 +122,12 @@ namespace NieRAutoIntelTracker
                         {
                             if (_netClient.IsConnected)
                                 _netClient.Write(IntelFishCurrent);
-
+                            else
+                            {
+                                _netClient.Initialize();
+                                if(_netClient.IsConnected)
+                                    _netClient.Write(IntelFishCurrent);
+                            }
                             this._intelDisplay.UpdateFishIntel(IntelFishCurrent);
                         }
 

@@ -11,7 +11,7 @@ namespace NieRAutoIntelTracker
     {
         // Update to live server info
         const int PORT = 8888;
-        const string SERVER_IP = "127.0.0.1";
+        const string SERVER_IP = "localhost";
 
         private TcpClient _client;
 
@@ -19,6 +19,19 @@ namespace NieRAutoIntelTracker
 
         public void Initialize()
         {
+            try
+            {
+                _client = new TcpClient(SERVER_IP, PORT);
+                IsConnected = true;
+            }
+            catch
+            {
+                IsConnected = false;
+            }
+        }
+        public void Reconnect()
+        {
+            _client.Close();
             try
             {
                 _client = new TcpClient(SERVER_IP, PORT);
@@ -39,9 +52,9 @@ namespace NieRAutoIntelTracker
             stream.Write(info, 0, info.Length);
 
             // Accept response if you want it, left it in just in case
-            byte[] bytesToRead = new byte[_client.ReceiveBufferSize];
-            int bytesRead = stream.Read(bytesToRead, 0, _client.ReceiveBufferSize);
-            var serverResponse = Encoding.ASCII.GetString(bytesToRead, 0, bytesRead); // Do with as you will
+            //byte[] bytesToRead = new byte[_client.ReceiveBufferSize];
+            //int bytesRead = stream.Read(bytesToRead, 0, _client.ReceiveBufferSize);
+            //var serverResponse = Encoding.ASCII.GetString(bytesToRead, 0, bytesRead); // Do with as you will
         }
 
         public void Close() => _client.Close();
