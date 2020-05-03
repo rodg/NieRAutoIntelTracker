@@ -2,6 +2,8 @@
 
 A modified version of remote-mine's [NieRAutoIntelTracker](https://github.com/remote-mine/NieRAutoIntelTracker), a Livesplit component that can be added to LiveSplit to display in-game intel.
 
+Main changes are in NetClient.cs and GameMemory.cs
+
 ## Usage
 
 1. Add `NieRAutoIntelTracker.dll` to the Livesplit `Components` folder.
