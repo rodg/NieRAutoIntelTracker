@@ -1,6 +1,6 @@
-# NieR:Automata Intel Tracker
+# NieR:Automata Intel Tracker + Networking
 
-A Livesplit component that can be added to LiveSplit to display in-game intel
+A modified version of remote-mine's [NieRAutoIntelTracker](https://github.com/remote-mine/NieRAutoIntelTracker), a Livesplit component that can be added to LiveSplit to display in-game intel.
 
 ## Usage
 
